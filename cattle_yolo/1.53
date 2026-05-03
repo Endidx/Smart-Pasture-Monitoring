@@ -1,0 +1,81 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Requirement already satisfied: streamlit in d:\anaconda\envs\yolo_8\lib\site-packages (1.55.0)
+Collecting streamlit
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/50/28/fdfe9711d553cfaf217cafc9b8ba21479c663b6504cc96652465b153e04b/streamlit-1.26.0-py2.py3-none-any.whl (8.1 MB)
+Collecting ultralytics==8.0.170 (from -r requirements.txt (line 6))
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/da/db/963db8635f7be7d8d040bcee32b0238f67eda5cd5ccada808b08fc156aa6/ultralytics-8.0.170-py3-none-any.whl (614 kB)
+Collecting pandas==2.0.3 (from -r requirements.txt (line 9))
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ed/30/b97456e7063edac0e5a405128065f0cd2033adfe3716fb2256c186bd41d0/pandas-2.0.3-cp310-cp310-win_amd64.whl (10.7 MB)
+Collecting pyecharts==2.0.3 (from -r requirements.txt (line 10))
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/64/63/834830ad4f37a6aa147f3a3d8b01f5890572fff83cedebfa9ca0e1d48761/pyecharts-2.0.3-py3-none-any.whl (147 kB)
+Collecting streamlit-echarts==0.6.0 (from -r requirements.txt (line 11))
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d7/e5/ee1820fc40d734a585b83c1122c548ced81af1c94726e96d0cbe8aa76d27/streamlit_echarts-0.6.0-py3-none-any.whl (702 kB)
+Collecting altair<6,>=4.0 (from streamlit)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/aa/f3/0b6ced594e51cc95d8c1fc1640d3623770d01e4969d29c0bd09945fafefa/altair-5.5.0-py3-none-any.whl (731 kB)
+Requirement already satisfied: blinker<2,>=1.0.0 in d:\anaconda\envs\yolo_8\lib\site-packages (from streamlit) (1.9.0)
+Collecting cachetools<6,>=4.0 (from streamlit)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/72/76/20fa66124dbe6be5cafeb312ece67de6b61dd91a0247d1ea13db4ebb33c2/cachetools-5.5.2-py3-none-any.whl (10 kB)
+Requirement already satisfied: click<9,>=7.0 in d:\anaconda\envs\yolo_8\lib\site-packages (from streamlit) (8.3.1)
+Collecting importlib-metadata<7,>=1.4 (from streamlit)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/59/9b/ecce94952ab5ea74c31dcf9ccf78ccd484eebebef06019bf8cb579ab4519/importlib_metadata-6.11.0-py3-none-any.whl (23 kB)
+Collecting numpy<2,>=1.19.3 (from streamlit)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/19/77/538f202862b9183f54108557bfda67e17603fc560c384559e769321c9d92/numpy-1.26.4-cp310-cp310-win_amd64.whl (15.8 MB)
+Collecting packaging<24,>=16.8 (from streamlit)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ec/1a/610693ac4ee14fcdf2d9bf3c493370e4f2ef7ae2e19217d7a237ff42367d/packaging-23.2-py3-none-any.whl (53 kB)
+Collecting pillow<10,>=7.1.0 (from streamlit)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/3e/14/0030e542f2acfea43635e55584c114e6cfd94d342393a5f71f74c172dc35/Pillow-9.5.0-cp310-cp310-win_amd64.whl (2.5 MB)
+Collecting protobuf<5,>=3.20 (from streamlit)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f3/16/42a5c7f1001783d2b5bfcecde10127f09010f78982c86ae409122ce3ece6/protobuf-4.25.9-cp310-abi3-win_amd64.whl (413 kB)
+Requirement already satisfied: pyarrow>=6.0 in d:\anaconda\envs\yolo_8\lib\site-packages (from streamlit) (23.0.1)
+Collecting pympler<2,>=0.9 (from streamlit)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/79/4f/a6a2e2b202d7fd97eadfe90979845b8706676b41cbd3b42ba75adf329d1f/Pympler-1.1-py3-none-any.whl (165 kB)
+Requirement already satisfied: python-dateutil<3,>=2.7.3 in d:\anaconda\envs\yolo_8\lib\site-packages (from streamlit) (2.9.0.post0)
+Requirement already satisfied: requests<3,>=2.18 in d:\anaconda\envs\yolo_8\lib\site-packages (from streamlit) (2.32.5)
+Collecting rich<14,>=10.14.0 (from streamlit)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/19/71/39c7c0d87f8d4e6c020a393182060eaefeeae6c01dab6a84ec346f2567df/rich-13.9.4-py3-none-any.whl (242 kB)
+Collecting tenacity<9,>=8.1.0 (from streamlit)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/d2/3f/8ba87d9e287b9d385a02a7114ddcef61b26f86411e121c9003eb509a1773/tenacity-8.5.0-py3-none-any.whl (28 kB)
+Requirement already satisfied: toml<2,>=0.10.1 in d:\anaconda\envs\yolo_8\lib\site-packages (from streamlit) (0.10.2)
+Requirement already satisfied: typing-extensions<5,>=4.1.0 in d:\anaconda\envs\yolo_8\lib\site-packages (from streamlit) (4.15.0)
+Collecting tzlocal<5,>=1.1 (from streamlit)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/55/a6/a75af44665e5e77e52f6789eef4f8bc056c8e039d96c804b975806942580/tzlocal-4.3.1-py3-none-any.whl (20 kB)
+Collecting validators<1,>=0.2 (from streamlit)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/fa/6e/3e955517e22cbdd565f2f8b2e73d52528b14b8bcfdb04f62466b071de847/validators-0.35.0-py3-none-any.whl (44 kB)
+Requirement already satisfied: gitpython!=3.1.19,<4,>=3.0.7 in d:\anaconda\envs\yolo_8\lib\site-packages (from streamlit) (3.1.46)
+Requirement already satisfied: pydeck<1,>=0.8 in d:\anaconda\envs\yolo_8\lib\site-packages (from streamlit) (0.9.1)
+Requirement already satisfied: tornado<7,>=6.0.3 in d:\anaconda\envs\yolo_8\lib\site-packages (from streamlit) (6.5.4)
+Requirement already satisfied: watchdog>=2.1.5 in d:\anaconda\envs\yolo_8\lib\site-packages (from streamlit) (6.0.0)
+Requirement already satisfied: pytz>=2020.1 in d:\anaconda\envs\yolo_8\lib\site-packages (from pandas==2.0.3->-r requirements.txt (line 9)) (2026.1.post1)
+Requirement already satisfied: tzdata>=2022.1 in d:\anaconda\envs\yolo_8\lib\site-packages (from pandas==2.0.3->-r requirements.txt (line 9)) (2025.3)
+Requirement already satisfied: matplotlib>=3.2.2 in d:\anaconda\envs\yolo_8\lib\site-packages (from ultralytics==8.0.170->-r requirements.txt (line 6)) (3.10.8)
+Requirement already satisfied: opencv-python>=4.6.0 in d:\anaconda\envs\yolo_8\lib\site-packages (from ultralytics==8.0.170->-r requirements.txt (line 6)) (4.13.0.92)
+Requirement already satisfied: pyyaml>=5.3.1 in d:\anaconda\envs\yolo_8\lib\site-packages (from ultralytics==8.0.170->-r requirements.txt (line 6)) (6.0.3)
+Requirement already satisfied: scipy>=1.4.1 in d:\anaconda\envs\yolo_8\lib\site-packages (from ultralytics==8.0.170->-r requirements.txt (line 6)) (1.15.3)
+Requirement already satisfied: torch>=1.8.0 in d:\anaconda\envs\yolo_8\lib\site-packages (from ultralytics==8.0.170->-r requirements.txt (line 6)) (2.9.1+cu130)
+Requirement already satisfied: torchvision>=0.9.0 in d:\anaconda\envs\yolo_8\lib\site-packages (from ultralytics==8.0.170->-r requirements.txt (line 6)) (0.24.1+cu130)
+Collecting tqdm>=4.64.0 (from ultralytics==8.0.170->-r requirements.txt (line 6))
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/16/e1/3079a9ff9b8e11b846c6ac5c8b5bfb7ff225eee721825310c91b3b50304f/tqdm-4.67.3-py3-none-any.whl (78 kB)
+Collecting seaborn>=0.11.0 (from ultralytics==8.0.170->-r requirements.txt (line 6))
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/83/11/00d3c3dfc25ad54e731d91449895a79e4bf2384dc3ac01809010ba88f6d5/seaborn-0.13.2-py3-none-any.whl (294 kB)
+Requirement already satisfied: psutil in d:\anaconda\envs\yolo_8\lib\site-packages (from ultralytics==8.0.170->-r requirements.txt (line 6)) (7.2.2)
+Collecting py-cpuinfo (from ultralytics==8.0.170->-r requirements.txt (line 6))
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e0/a9/023730ba63db1e494a271cb018dcd361bd2c917ba7004c3e49d5daf795a2/py_cpuinfo-9.0.0-py3-none-any.whl (22 kB)
+Requirement already satisfied: jinja2 in d:\anaconda\envs\yolo_8\lib\site-packages (from pyecharts==2.0.3->-r requirements.txt (line 10)) (3.1.6)
+Collecting prettytable (from pyecharts==2.0.3->-r requirements.txt (line 10))
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ee/8c/83087ebc47ab0396ce092363001fa37c17153119ee282700c0713a195853/prettytable-3.17.0-py3-none-any.whl (34 kB)
+Collecting simplejson (from pyecharts==2.0.3->-r requirements.txt (line 10))
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ad/87/a6e03d4d80cca99c1fee4e960f3440e2f21be9470e537970f960ca5547f1/simplejson-3.20.2-cp310-cp310-win_amd64.whl (76 kB)
+INFO: pip is looking at multiple versions of streamlit-echarts to determine which version is compatible with other requirements. This could take a while.
+
+The conflict is caused by:
+    The user requested streamlit
+    The user requested streamlit==1.26.0
+    streamlit-echarts 0.6.0 depends on streamlit>=1.53
+
+Additionally, some packages in these conflicts have no matching distributions available for your environment:
+    streamlit
+
+To fix this you could try to:
+1. loosen the range of package versions you've specified
+2. remove package versions to allow pip to attempt to solve the dependency conflict
+

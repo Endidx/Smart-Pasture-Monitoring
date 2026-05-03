@@ -1,0 +1,9 @@
+numpy==1.26.4
+pandas==2.0.3
+matplotlib>=3.2.2
+opencv-python>=4.6.0
+pillow>=10.0.0
+ultralytics==8.0.170
+streamlit==1.53.0
+streamlit-echarts==0.6.0
+pyecharts==2.0.3
