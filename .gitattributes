@@ -1,0 +1,3 @@
+# 标记 ESP32 目录为生成代码，不计入语言统计
+ESP32/* linguist-generated=true
+ESP32S3/* linguist-generated=true
